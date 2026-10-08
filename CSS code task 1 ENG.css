@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: border-box; 
+} 
+
+body {
+  font-size: 20px;
+  background-color: #8a8aef;
+} 
+
+.book-container { 
+  background-color: #8a8aef; 
+  width: 98vw; 
+  height: 100vh; 
+  margin: auto auto;
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+} 
+
+.page { 
+  width: 25vw; 
+  height: 35vw;
+  background-color: #fff; 
+  margin-left: 10px; 
+  margin-top: 10px; 
+  border-radius: 5px;
+  border: 2px solid #8B6947; 
+  background-color: #AB8957; 
+  padding: 4px;
+} 
+
+.front { 
+  background-color: #8B6947; 
+}
+
+.map {
+  display: flex;
+  align-items: flex-end;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+  border-top: 2px solid #8B6947;;
+} 
