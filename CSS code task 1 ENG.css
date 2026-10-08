@@ -4,12 +4,12 @@
 } 
 
 body {
-  font-size: 20px;
-  background-color: #8a8aef;
+  background-color: #9a9ffa;
+  overflow-x: hidden;
 } 
 
 .book-container { 
-  background-color: #8a8aef; 
+  background-color: #9a9ffa; 
   width: 98vw; 
   height: 100vh; 
   margin: auto auto;
@@ -28,11 +28,18 @@ body {
   border-radius: 5px;
   border: 2px solid #8B6947; 
   background-color: #AB8957; 
-  padding: 4px;
+  padding: 6px;
+  font-size: 2cqw;
 } 
 
 .front { 
-  background-color: #8B6947; 
+  background-color: #8B6947;
+  text-align: center; 
+}
+
+.front h1 {
+  margin-top: 20px;
+  transform: rotate(10deg);
 }
 
 .map {
@@ -44,5 +51,5 @@ body {
 img {
   width: 100%;
   border-radius: 0 0 3px 3px;
-  border-top: 2px solid #8B6947;;
+  border-top: 2px solid #8B6947;
 } 
